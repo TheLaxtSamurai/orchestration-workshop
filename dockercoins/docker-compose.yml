@@ -14,7 +14,7 @@ services:
   webui:
     build: webui
     ports:
-    - "8000:80"
+    - "9000:80"
     volumes:
     - "./webui/files/:/files/"
 
